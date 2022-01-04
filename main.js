@@ -1,4 +1,4 @@
-// USER FORM SCRIPT
+
 
 // Put DOM elements into variables
 const myForm = document.querySelector('#my-form');
@@ -14,7 +14,6 @@ function onSubmit(e) {
   e.preventDefault();
   
   if(nameInput.value === '' || emailInput.value === '') {
-    // alert('Please enter all fields');
     msg.classList.add('error');
     msg.innerHTML = 'Please enter all fields';
 
